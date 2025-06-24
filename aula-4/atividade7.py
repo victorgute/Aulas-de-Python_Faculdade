@@ -3,7 +3,7 @@ ano = int(input("Insira um ano:"))
 
 if mes <1 or mes >12: print("Mês invalido")
 else:
-    if ano % 100 == 0 and ano % 400 == 0 or ano % 4 == 0 and ano % 100 != 0: biseexto = 0
+    if ano % 400 == 0 or ano % 4 == 0 and ano % 100 != 0: biseexto = 0
     else: biseexto = 1
     if mes == 2 and biseexto == 0: dias = 29
     elif mes == 2 and biseexto == 1: dias = 28
