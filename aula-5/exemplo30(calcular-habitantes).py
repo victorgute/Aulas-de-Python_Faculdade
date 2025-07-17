@@ -12,7 +12,7 @@ rendamulher = 0
 generos = ["Homem", "Mulher"]
 
 
-for habitantes in range(1,2001):
+for habitantes in range(2000):
     idade = rd.randint(18,100)
     renda = rd.randint(1500,10000)
     genero = rd.choice(generos)
